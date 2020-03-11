@@ -7,7 +7,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
-import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.FirebaseFirestore;
 
 public class DoctorLoginPage extends AppCompatActivity {
@@ -23,20 +22,20 @@ public class DoctorLoginPage extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.doctor_login_page);
 
+        loginButton = findViewById(R.id.doctor_login);
+        loginButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(DoctorLoginPage.this , DoctorAppointmentsSevenDays.class);
+                startActivity(intent);
+            }
+        });
+
         backButton = findViewById(R.id.doctor_back_button);
         backButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(DoctorLoginPage.this , MainActivity.class);
-                startActivity(intent);
-            }
-        });
-
-        loginButton = findViewById(R.id.doctor_login);
-        loginButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(DoctorLoginPage.this , DoctorAppointments.class);
                 startActivity(intent);
             }
         });

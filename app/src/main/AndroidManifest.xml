@@ -20,6 +20,7 @@
         <activity android:name=".PatientLoginPage"/>
         <activity android:name=".DoctorAppointments"/>
         <activity android:name=".PatientRegister"/>
+        <activity android:name=".DoctorAppointmentsSevenDays" />
     </application>
 
 </manifest>
