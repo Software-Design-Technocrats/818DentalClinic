@@ -68,21 +68,8 @@
         app:layout_constraintVertical_bias="0.976" />
 
     <Button
-        android:id="@+id/patient_buttonToSevenDaysAppointment"
-        android:layout_width="159dp"
-        android:layout_height="40dp"
-        android:background="@drawable/base2"
-        android:text="In 7 Days"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.13"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.166" />
-
-    <Button
         android:id="@+id/patient_button6"
-        android:layout_width="190dp"
+        android:layout_width="match_parent"
         android:layout_height="89dp"
         android:background="@drawable/background"
         android:text="ALL SCHEDULE"

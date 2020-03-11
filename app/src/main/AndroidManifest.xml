@@ -11,6 +11,11 @@
         android:theme="@style/AppTheme">
         <activity android:name=".PatientAppointments"></activity>
         <activity android:name=".AddingAppointments" />
+        <activity android:name=".DoctorLoginPage" />
+        <activity android:name=".PatientLoginPage" />
+        <activity android:name=".DoctorAppointments" />
+        <activity android:name=".PatientRegister" />
+        <activity android:name=".DoctorAppointmentsSevenDays" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,11 +23,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".DoctorLoginPage" />
-        <activity android:name=".PatientLoginPage" />
-        <activity android:name=".DoctorAppointments" />
-        <activity android:name=".PatientRegister" />
-        <activity android:name=".DoctorAppointmentsSevenDays" />
+
     </application>
 
 </manifest>
