@@ -108,7 +108,7 @@ public class PatientLoginPage extends AppCompatActivity {
     }
 
     private void goToAppointments() {
-        Intent intent = new Intent(this, DoctorAppointments.class);
+        Intent intent = new Intent(this, PatientAppointments.class);
         startActivity(intent);
     }
 }
