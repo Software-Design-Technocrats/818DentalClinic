@@ -133,7 +133,7 @@
         android:alpha=".7"
         android:fontFamily="@font/wendy_one"
         android:text="Select Date and Time"
-        android:textSize="28sp"
+        android:textSize="27sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/dateButton"
         app:layout_constraintEnd_toEndOf="parent"
