@@ -13,9 +13,9 @@ public class DoctorAppointmentsSevenDays extends AppCompatActivity{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.doctor_appointments_seven_days);
 
-        mAppointmentsButton = findViewById(R.id.buttonToAllSchedule);
+
+
 
         mAppointmentsButton.setOnClickListener(new View.OnClickListener() {
             @Override

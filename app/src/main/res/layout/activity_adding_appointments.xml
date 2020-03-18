@@ -12,22 +12,22 @@
         android:layout_height="77dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintHorizontal_bias="0.97"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.041"
+        app:layout_constraintVertical_bias="0.044"
         app:srcCompat="@drawable/book_appointment_title" />
 
     <ImageView
         android:id="@+id/imageView6"
-        android:layout_width="440dp"
-        android:layout_height="704dp"
-        android:layout_marginTop="13dp"
-        android:layout_marginBottom="14dp"
+        android:layout_width="460dp"
+        android:layout_height="604dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.7"
         app:srcCompat="@drawable/book_appointment_background" />
 
     <TextView
@@ -46,10 +46,11 @@
         app:layout_constraintVertical_bias="0.189" />
 
     <Button
-        android:id="@+id/button11"
+        android:id="@+id/button_one"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:background="@drawable/book_selection_one"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.13"
@@ -58,7 +59,7 @@
         app:layout_constraintVertical_bias="0.296" />
 
     <Button
-        android:id="@+id/button12"
+        android:id="@+id/button_two"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:background="@drawable/book_selection_two"
@@ -69,7 +70,7 @@
         app:layout_constraintVertical_bias="0.296" />
 
     <Button
-        android:id="@+id/button13"
+        android:id="@+id/button_three"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:background="@drawable/book_selection_three"
@@ -81,7 +82,7 @@
         app:layout_constraintVertical_bias="0.296" />
 
     <Button
-        android:id="@+id/button14"
+        android:id="@+id/button_four"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:background="@drawable/book_selection_four"
@@ -92,7 +93,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button15"
+        android:id="@+id/button_five"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:background="@drawable/book_selection_five"
@@ -103,7 +104,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button16"
+        android:id="@+id/button_six"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:background="@drawable/book_selection_six"
@@ -114,7 +115,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button17"
+        android:id="@+id/button_seven"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:background="@drawable/book_selection_seven"
@@ -126,7 +127,7 @@
         app:layout_constraintVertical_bias="0.711" />
 
     <Button
-        android:id="@+id/button18"
+        android:id="@+id/button_eight"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:background="@drawable/book_selection_eight"
@@ -138,38 +139,15 @@
         app:layout_constraintVertical_bias="0.711" />
 
     <Button
-        android:id="@+id/button19"
+        android:id="@+id/button_nine"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:background="@drawable/book_selection_nine"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/imageView6"
-        app:layout_constraintHorizontal_bias="0.825"
+        app:layout_constraintHorizontal_bias="0.794"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.711" />
 
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="178dp"
-        android:layout_height="52dp"
-        android:background="@drawable/back_button"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.068"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.93" />
-
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="178dp"
-        android:layout_height="72dp"
-        android:background="@drawable/next_btn"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.931"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.946" />
 </androidx.constraintlayout.widget.ConstraintLayout>
