@@ -19,8 +19,8 @@
 
     <EditText
         android:id="@+id/doctor_name"
-        android:layout_width="330dp"
-        android:layout_height="90dp"
+        android:layout_width="300dp"
+        android:layout_height="85dp"
         android:background="@drawable/username_textbox"
         android:ems="10"
         android:hint="Username"
@@ -36,8 +36,8 @@
 
     <EditText
         android:id="@+id/doctor_pass"
-        android:layout_width="330dp"
-        android:layout_height="90dp"
+        android:layout_width="300dp"
+        android:layout_height="85dp"
         android:background="@drawable/password_textbox"
         android:ems="10"
         android:hint="Password"
