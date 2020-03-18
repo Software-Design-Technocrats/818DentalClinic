@@ -9,6 +9,42 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".AddAppointmentFinish"></activity>
+        <activity
+            android:name=".PopActivityClassOne"
+            android:theme="@style/AppTheme.PopMe" />
+        <activity
+            android:name=".PopActivityClassTwo"
+            android:theme="@style/AppTheme.PopMe" />
+        <activity
+            android:name=".PopActivityClassThree"
+            android:theme="@style/AppTheme.PopMe" />
+        <activity
+            android:name=".PopActivityClassFour"
+            android:theme="@style/AppTheme.PopMe" />
+        <activity
+            android:name=".PopActivityClassFive"
+            android:theme="@style/AppTheme.PopMe" />
+        <activity
+            android:name=".PopActivityClassSix"
+            android:theme="@style/AppTheme.PopMe" />
+        <activity
+            android:name=".PopActivityClassSeven"
+            android:theme="@style/AppTheme.PopMe" />
+        <activity
+            android:name=".PopActivityClassEight"
+            android:theme="@style/AppTheme.PopMe" />
+        <activity
+            android:name=".PopActivityClassNine"
+            android:theme="@style/AppTheme.PopMe" />
+        <activity android:name=".DateTimePicker" />
+        <activity android:name=".PatientAppointments" />
+        <activity android:name=".AddingAppointments" />
+        <activity android:name=".DoctorLoginPage" />
+        <activity android:name=".PatientLoginPage" />
+        <activity android:name=".DoctorAppointments" />
+        <activity android:name=".PatientRegister" />
+        <activity android:name=".DoctorAppointmentsSevenDays" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -16,10 +52,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".DoctorLoginPage"/>
-        <activity android:name=".PatientLoginPage"/>
-        <activity android:name=".DoctorAppointments"/>
-        <activity android:name=".PatientRegister"/>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>
