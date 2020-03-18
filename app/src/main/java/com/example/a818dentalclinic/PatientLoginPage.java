@@ -9,15 +9,15 @@ import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 
 import java.util.Objects;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
 
 public class PatientLoginPage extends AppCompatActivity {
 
@@ -108,7 +108,7 @@ public class PatientLoginPage extends AppCompatActivity {
     }
 
     private void goToAppointments() {
-        Intent intent = new Intent(this, DoctorAppointments.class);
+        Intent intent = new Intent(this, PatientAppointments.class);
         startActivity(intent);
     }
 }
