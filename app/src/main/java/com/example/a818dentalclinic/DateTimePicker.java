@@ -25,7 +25,7 @@ public class DateTimePicker extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_date__time__picker);
+        setContentView(R.layout.activity_date_time_picker);
 
         dateButton = findViewById(R.id.dateButton);
         timeButton = findViewById(R.id.timeButton);
